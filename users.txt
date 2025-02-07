@@ -1,0 +1,8 @@
+[
+    {
+        "user_id": "1",
+        "username": "pamela",
+        "email": "deysarkarpamela@gmail.com",
+        "password_hash": "scrypt:32768:8:1$t1xNnlfHZXYcaziS$4290ea4b9686768f4bec88078835eb5b06151d46085363a739dfa41537f86b5957c8435d678758120afb1e410a260dc16af856234adb2c9cc69316c6be210c19"
+    }
+]

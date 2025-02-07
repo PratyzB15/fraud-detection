@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "username": "pamela",
+            "email": "deysarkarpamela@gmail.com",
+            "password_hash": "scrypt:32768:8:1$7ss5VsF9hRyTWE1M$e98f33bf7e4a5d39fc05fcdf98e76fdda0251fa682ba172a314540fabb8774000cbe9b409effaf06ceaa41eb4de3453c7b6dac95684793d6e6f881e7e8866e94",
+            "role": "user"
+        }
+    ],
+    "transactions": [
+        {
+            "id": "1",
+            "user_id": "1",
+            "status": "Pending",
+            "upi": "deysarkarpamela@okaxis",
+            "amount": 100,
+            "location": "orissa"
+        }
+    ]
+}
