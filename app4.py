@@ -152,7 +152,9 @@ def add_transaction():
     location = st.text_input("Enter Transaction Location:")
 
     if st.button("Submit UPI"):
-        if any(upi_id.endswith(handle) for handle in ["@sbi", "@icici", "@hdfcbank", "@okaxis", "@kotak", "@pnb"]):
+        if any(upi_id.endswith(handle) for handle in ["@sbi", "@icici", "@hdfcbank", "@okaxis", "@kotak", "@pnb","@rbl","@abfspay","@idbi","@bandhan","@indus"
+    "@okicici","@paytm","@phonepe","@upi","@ptyes","@uco","	@yesg","@hsbc","@indianbank","@allbank","@inhdfc","@dlb","@freecharge","@citi","@citigold","@kbl"
+    "@BARODAMPAY","@abfspay","@axisbank","@aubank","@sbi","@federal","@dbs"]):
             new_transaction = {'id': str(len(db['transactions']) + 1), 'user_id': st.session_state.user_id, 'status': 'Pending', 'upi': upi_id, 'amount': amount, 'location': location}
             db['transactions'].append(new_transaction)
             save_db(db)
